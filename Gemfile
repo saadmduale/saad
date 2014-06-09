@@ -9,13 +9,13 @@ gem 'jquery-rails'
 gem 'bootstrap-sass'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
+gem 'devise'
 
 group :development, :test do
 	gem 'sqlite3'
 end
 
 group :production do
-	gem 'pg'
 	gem'rails_12factor'
 end
 
